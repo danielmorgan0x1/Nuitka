@@ -250,7 +250,7 @@ def decideFilenameVersionSkip(filename):
     """
 
     # This will make many decisions with immediate returns.
-    # pylint: disable=too-many-return-statements
+    # pylint: disable=too-many-branches,too-many-return-statements
 
     assert type(filename) is str
     assert type(_python_version) is str
